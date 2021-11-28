@@ -1,0 +1,7 @@
+version: "3"
+
+services:
+  chu-pos-tagger:
+    build: .
+    ports:
+      - 8000:8000
